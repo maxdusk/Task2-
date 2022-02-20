@@ -1,6 +1,6 @@
 ### url to web page ###
 
-http://18.197.125.43/    
+http://3.71.202.168/
 
 ### script to install nginx and add web page ###
 
@@ -31,7 +31,6 @@ echo '
     </div>
 </body>
 </html>' > /home/ec2-user/index.html
-
 
 mv /home/ec2-user/index.html /usr/share/nginx/html/index.html -f
 
